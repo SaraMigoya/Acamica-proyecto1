@@ -437,7 +437,7 @@ label {
 
 #checkbox:checked ~ ul {
   height: auto;
-  width: 320px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 769px) {
