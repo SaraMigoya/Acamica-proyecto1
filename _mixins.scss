@@ -1,0 +1,35 @@
+//Tipografía para la seccion 4//
+@mixin font-icon {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: $text;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@mixin button {
+  background-color: #00F3BB;
+  font-family: $normal-font;
+  font-size: 16px;
+  border: none;
+  color: $text;
+}
+
+
+
+//Tipografía subtítulos//
+@mixin subtitle-white {
+  color: $text-white;
+  font-family: $title-font;
+  font-size: 36px;
+  font-weight: 100;
+  width: 80%;
+  margin-left: 10px;
+}
+
+@mixin subtitle-black {
+    font-family: $title-font;
+    font-weight: $font-weight;
+    color: $text;
+}

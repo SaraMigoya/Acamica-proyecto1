@@ -1,0 +1,101 @@
+.logo {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .header nav {
+    float: right;
+    position: absolute;
+  }
+  header .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style: none;
+    background: #0000EC;
+    width: 100%;
+    height: 0;
+    padding-left: 10px;
+  
+  }
+  
+  li a {
+    font-family: $normal-font;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 50px;
+    color: $text-white;
+    
+  }
+
+  .checkbox {
+    width: 50px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .checkbox #span1 {
+    position: absolute;
+    content: '';
+    background: black;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+  }
+  
+  .checkbox #span2 {
+    position: absolute;
+    content: '';
+    background: black;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+    top: 9px;
+  }
+  
+  .checkbox #span3 {
+    position: absolute;
+    content: '';
+    background: black;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+    top: 18px;
+  }
+  
+  #checkbox {
+    display: none;
+  }
+
+label {
+    width: 20%;
+    margin-left: 250px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  #checkbox:checked ~ .checkbox #span1 {
+    transform: rotate(140deg);
+    top: 10px;
+  }
+  
+  #checkbox:checked ~ .checkbox #span2 {
+    opacity: 0;
+  }
+  
+  #checkbox:checked ~ .checkbox #span3 {
+    transform: rotate(-140deg);
+    top: 10px;
+  }
+  
+  #checkbox:checked ~ ul {
+    height: auto;
+    width: 320px;
+  }
