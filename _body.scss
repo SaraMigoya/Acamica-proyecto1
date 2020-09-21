@@ -214,4 +214,9 @@ iframe {
 .iconos-fa {
   display: flex;
   justify-content: space-evenly;
+  color: black;
+}
+
+.iconos-fa a {
+  color: $text;
 }

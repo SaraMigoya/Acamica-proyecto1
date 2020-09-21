@@ -324,6 +324,11 @@ iframe {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  color: black;
+}
+
+.iconos-fa a {
+  color: #060a24;
 }
 
 .logo {
